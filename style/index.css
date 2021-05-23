@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'libre_baskervillebold';
+    src: url(/assets/librebaskerville-bold-webfont.woff2) format('woff2'),
+         url(/assets/librebaskerville-bold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'libre_baskervilleregular';
+    src: url(/assets/librebaskerville-regular-webfont.woff2) format('woff2'),
+         url(/assets/librebaskerville-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,
+body {
+	min-width: 290px;
+	color: black;
+	font-family: 'libre_baskervilleregular', Arial, sans-serif;
+	line-height: 1.5;
+	margin: 0%;
+	padding: 0%;
+}
+
+h1 {
+    color:#e89068;
+    font-size: 50px;
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    text-align: center;
+    margin: 80px 0 60px 0;
+}
+
+h2 {
+    color:#fddccd;
+    font-size: 50px;
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    text-align: center;
+    margin: 80px 0 40px 0;
+}
+
+img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.banner {
+    position:relative;
+    background-image: url(/assets/01.jpg);
+    width:100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    font-size: 60px;
+    color:#633A27;
+    text-align: center;
+    letter-spacing: 30px;
+    padding-top: 200px;
+}
+
+/* IMAGE SECTION*/
+.img {
+    background: #fddccd;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0 80px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin:0 150px 0 150px;
+}
+
+.box_container {
+    display: flex;
+    box-sizing: border-box;
+    height: 50vh;
+    width: 100%;
+    padding: 30px;
+    gap: 20px;
+}
+
+.pic {
+    box-sizing:border-box;
+    height: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.descrip {
+    font: #633A27;
+    font-size: 13px;
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    padding: 20px;
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color:#633A27;
+}
+
+a:hover {
+    text-align: center;
+    text-decoration: none;
+    color:#633A27;
+    font-size: 17px;
+}
+
+/* FORM SECTION*/
+.form {
+    background: #efba78;
+    color:#633A27;
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+
+.form_container {
+    background-color: #fddccd;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    margin:0 550px 0 550px;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.fullName {
+    background-color: #efba78;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    background-color: #F2C68F;
+    border: none;
+    border-radius: 5px;
+    color:#633A27;
+    height: 25px;
+    width: 250px;
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    color:#633A27;
+}
+
+input[type="text"]:focus {
+    background-color: #F2C68F;
+    border:none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+textarea {
+    background-color: #F2C68F;
+    border:none;
+    border-radius: 5px;
+    width: 400px;
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    color:#633A27;
+}
+
+button {
+    background-image: url(/assets/01.jpg);
+    border:none;
+    border-radius: 5px;
+    width: 400px;
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    color:#633A27;
+    height: 30px;
+}
+
+button:hover {
+    width:410px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* FOOTER */
+.footer {
+    position:relative;
+    background-image: url(/assets/01.jpg);
+    width:100%;
+    height: 150px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+    font-family: 'libre_baskervillebold', Arial, sans-serif;
+    font-size: 15px;
+    color:#633A27;
+    text-align: center;
+    letter-spacing: 8px;
+    padding-top: 90px;
+}
+
+
